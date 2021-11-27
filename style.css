@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-logo {
+  margin: .50rem 1rem;
+}
+.nav-link > a {
+  margin: .50rem 2rem;
+}
+
+.linha {
+border-top: 3px solid black;
+margin: 0px 40px;
+}
+
+.sec-wellcome {
+background-image: url(/img/2019-3.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 90vh;
+}
+.sec-wellcome > h1 {
+  font-size: 6rem;
+  font-family: Tahoma Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: rgba(255, 252, 252, 0.514) 0.1em 0.1em 0.2em;
+}
+
+.sec-festival {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title-festival {
+  border-bottom: 3px solid black;
+  font-weight: bold;
+  padding-bottom: 20px;
+  
+}
+.title-festival > h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.img-festival {
+  margin-top: 4rem;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-right: 8%;
+  margin-left: 8%;
+}
+
+.sec-dreamville {
+  margin-top: 10rem;
+  background: rgb(187, 187, 187);
+  padding: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.title-dreamville {
+  /*border-bottom: 1px solid black; */
+  margin-bottom: 4rem;
+}
+.title-dreamville > h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.content-dreamville {
+  font-size: 1.2rem;
+  padding: 0px 2rem 1.5rem 2rem;
+}
+
+.sec-location {
+padding: 8rem 0;
+background: rgb(34, 33, 33);
+color: white;
+display: flex;
+justify-content:space-around;
+align-items: center;
+flex-wrap: wrap;
+}
+.endereco {
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+.endereco > .span-endereco {
+font-weight: bold;
+margin-bottom: 1rem;
+}
+.midia-social {
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center
+}
+.midia-social > span {
+font-weight: bold;
+padding: 5px;
+}
+.social-icon {
+font-size: 13px;
+color: white;
+border: 2px solid white;
+border-radius: 2rem;
+padding: 9px;
+}
+
+.footer {
+  background: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+@media (max-width: 640px) {
+  .sec-wellcome > h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+  .title-festival > h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .title-dreamville > h1 {
+    font-size: 2rem;
+    font-weight: bold;  
+  }
+  .sec-dreamville {
+    margin-top: 10rem;
+    background: rgb(187, 187, 187);
+    padding: 6rem 2rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align:center;
+  }
+  .content-dreamville {
+    font-size: 1rem;
+    padding: 0px 0 1.5rem 0;
+  }
+  .sec-location {
+    padding: 6rem 0;
+    background: rgb(34, 33, 33);
+    color: white;
+    display: block;
+    justify-content:center;
+    align-items: center;
+  }
+  .midia-social {
+    margin-top: 3rem;
+  }
+  .footer {
+    background: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+}
